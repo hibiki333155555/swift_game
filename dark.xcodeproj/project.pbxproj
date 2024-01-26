@@ -14,6 +14,9 @@
 		E6BB7A8C2B63E93D00AE8B3D /* darkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BB7A8B2B63E93D00AE8B3D /* darkTests.swift */; };
 		E6BB7A962B63E93D00AE8B3D /* darkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BB7A952B63E93D00AE8B3D /* darkUITests.swift */; };
 		E6BB7A982B63E93D00AE8B3D /* darkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BB7A972B63E93D00AE8B3D /* darkUITestsLaunchTests.swift */; };
+		E6BB7AA52B63E98000AE8B3D /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB7AA42B63E98000AE8B3D /* bg.png */; };
+		E6BB7AA72B63EB1700AE8B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BB7AA62B63EB1700AE8B3D /* AppDelegate.swift */; };
+		E6BB7AAB2B63FF0E00AE8B3D /* battle.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BB7AAA2B63FF0E00AE8B3D /* battle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		E6BB7A912B63E93D00AE8B3D /* darkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = darkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6BB7A952B63E93D00AE8B3D /* darkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darkUITests.swift; sourceTree = "<group>"; };
 		E6BB7A972B63E93D00AE8B3D /* darkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6BB7AA42B63E98000AE8B3D /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		E6BB7AA62B63EB1700AE8B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6BB7AAA2B63FF0E00AE8B3D /* battle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +100,12 @@
 		E6BB7A792B63E93C00AE8B3D /* dark */ = {
 			isa = PBXGroup;
 			children = (
+				E6BB7AA62B63EB1700AE8B3D /* AppDelegate.swift */,
 				E6BB7A7A2B63E93C00AE8B3D /* darkApp.swift */,
 				E6BB7A7C2B63E93C00AE8B3D /* ContentView.swift */,
 				E6BB7A7E2B63E93D00AE8B3D /* Assets.xcassets */,
+				E6BB7AAA2B63FF0E00AE8B3D /* battle.png */,
+				E6BB7AA42B63E98000AE8B3D /* bg.png */,
 				E6BB7A802B63E93D00AE8B3D /* Preview Content */,
 			);
 			path = dark;
@@ -232,7 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6BB7A822B63E93D00AE8B3D /* Preview Assets.xcassets in Resources */,
+				E6BB7AAB2B63FF0E00AE8B3D /* battle.png in Resources */,
 				E6BB7A7F2B63E93D00AE8B3D /* Assets.xcassets in Resources */,
+				E6BB7AA52B63E98000AE8B3D /* bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6BB7AA72B63EB1700AE8B3D /* AppDelegate.swift in Sources */,
 				E6BB7A7D2B63E93C00AE8B3D /* ContentView.swift in Sources */,
 				E6BB7A7B2B63E93C00AE8B3D /* darkApp.swift in Sources */,
 			);

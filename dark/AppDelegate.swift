@@ -1,6 +1,5 @@
 import UIKit
 
-@UIApplicationMain
 class AppDelegate: NSObject, UIApplicationDelegate {
     // 回転可能か設定する。外部から変更できるよう静的としている
     /*
